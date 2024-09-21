@@ -52,11 +52,16 @@
 
 }
 
-.frame-1,
-.frame-2 {
+.frame-1 {
    background-color: #D7E5F6;
 
 }
+
+.frame-2 {
+    background-color:#D8E0FC;
+    ;
+ 
+ }
 
 .frame-3 {
     background: #E8DCF6;
