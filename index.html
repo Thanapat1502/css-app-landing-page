@@ -14,28 +14,43 @@
     <!--Pang-->
 
     <!--Fluk-->
-    <section class="t-register-container">
-      <h1>Get in Touch</h1>
-      <form action="#" class="t-form">
-        <label for="name">Name</label>
-        <input type="text" name="name" placeholder="Jhon Doe" />
-
-        <label for="email">Email</label>
-        <input type="text" name="email" placeholder="john@example.com" />
-
-        <label for="your-message">Message</label>
-        <input type="text" name="your-message" placeholder="Your message..." />
-      </form>
-      <button>Submit</button>
-    </section>
-    <footer>
-      <h3>Acme productivity app ©2024</h3>
-      <div class="t-footer-button">
-        <button>FAQ</button>
-        <button>Terms</button>
-        <button>Al Policy</button>
-        <button>Pricing</button>
+    <div class="t-outer-container">
+      <div class="t-footer-container">
+        <section class="t-register-section">
+          <h2 id="t-get-in-touch-icon">Get in Touch</h2>
+          <form action="#" class="t-form">
+            <div class="t-input">
+              <label for="name">Name</label> <br />
+              <input type="text" name="name" placeholder="Jhon Doe" />
+            </div>
+            <br />
+            <div class="t-input">
+              <label for="email">Email</label> <br />
+              <input type="text" name="email" placeholder="john@example.com" />
+            </div>
+            <br />
+            <div class="t-input">
+              <label for="your-message">Message</label><br />
+              <input
+                type="text"
+                name="your-message"
+                placeholder="Your message..."
+                id="t-input-message" />
+            </div>
+            <br />
+          </form>
+          <button class="t-submit-button">Submit</button>
+        </section>
+        <footer class="t-footer-section">
+          <h3 class="t-address">Acme productivity app ©2024</h3>
+          <div class="t-button-collection">
+            <button class="t-footer-button">FAQ</button>
+            <button class="t-footer-button">Terms</button>
+            <button class="t-footer-button">Al Policy</button>
+            <button class="t-footer-button">Pricing</button>
+          </div>
+        </footer>
       </div>
-    </footer>
+    </div>
   </body>
 </html>
