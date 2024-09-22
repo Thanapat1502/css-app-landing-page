@@ -10,14 +10,14 @@
 
 /*--Fluk--*/
 /*--outer-container--*/
-.t-outer-container {
+.f-outer-container {
   height: auto;
   width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.t-footer-container {
+.f-footer-container {
   /*--item-container*/
   width: 834px;
   height: 850px;
@@ -27,13 +27,13 @@
   flex-direction: column;
   align-items: center;
 }
-#t-get-in-touch-icon {
+#f-get-in-touch-icon {
   /*section*/
   font-family: inter;
   font-weight: 700;
   font-size: 44px;
 }
-.t-register-section {
+.f-register-section {
   width: 786px;
   height: 666px;
   padding: 80px 120px 80px 120px;
@@ -46,7 +46,7 @@
   align-items: center;
   background-color: #ffffffb2;
 }
-.t-input label {
+.f-input label {
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
@@ -54,8 +54,8 @@
   text-align: left;
   color: #5f5f76;
 }
-.t-input input {
-  /*--ช่อง input--*/
+.f-input input {
+  /*--ช่อง inpuf--*/
   width: 546px;
   height: 48px;
   padding: 12px 12px 12px 16px;
@@ -65,7 +65,7 @@
   background-color: #ffffff;
   border: 1px solid #e0e0ed;
 }
-#t-input-message {
+#f-input-message {
   /*--ช่อง message--*/
   width: 546px;
   height: 102px;
@@ -75,7 +75,8 @@
   border: 1px solid #e0e0ed;
   text-align: start;
 }
-.t-submit-button {
+
+.f-submit-button {
   /*--ปุ่ม submit--*/
   width: 546px;
   height: 56px;
@@ -87,9 +88,10 @@
   font-size: 16px;
   font-weight: 400;
   color: #ffffff;
+  cursor: pointer;
 }
 
-.t-footer-section {
+.f-footer-section {
   /*--footer--*/
   display: flex;
   justify-content: space-between;
@@ -97,12 +99,12 @@
   margin-right: 24px;
   margin-left: 24px;
 }
-.t-address {
+.f-address {
   color: #5f5f76;
   font-size: 16px;
   font-weight: 500;
 }
-.t-footer-button {
+.f-footer-button {
   /*--FAQ & other button--*/
   border: none;
   background-color: #ffffff;
