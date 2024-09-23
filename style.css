@@ -3,7 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+}
+  /*font-family: Arial, sans-serif;
 }
 /* ผมจำเป็นต้องกำหนดสีพื้นหลังเพราะต้องทำเงา nav bar เลยใส่ฟ้อนต์ข้างบน และ สีพื้นหลังด้านล่างครับ */
 body {
@@ -103,5 +104,3 @@ body {
 /* content end here! */
 
 /*--Pang--*/
-
-/*--Fluk--*/
