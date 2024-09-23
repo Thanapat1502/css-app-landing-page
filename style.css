@@ -102,5 +102,86 @@ body {
   margin-top: 1.5rem;
 }
 /* content end here! */
-
 /*--Pang--*/
+.feature-Section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color:#F6F6FB;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+.frame-1,
+.frame-2,
+.frame-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 387px;
+    height: 272px;
+    padding: 28px;
+    gap: 40px;
+    border-radius: 24px;
+    opacity: 0px;
+
+}
+
+.frame-1 {
+   background-color: #D7E5F6;
+
+}
+
+.frame-2 {
+    background-color:#D8E0FC;
+    ;
+ 
+ }
+
+.frame-3 {
+    background: #E8DCF6;
+}
+
+.box-cover-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 16px;
+    width: 60px;
+    height: 60px;
+    background-color:#FFFFFF99;
+    ;
+}
+
+.hero-title-1,
+.hero-title-2,
+.hero-title-3 {
+    color: #1A1A2C;
+    size: 24px;
+    font-weight: 300px;
+    line-height: 32px;
+    
+}
+
+.hero-details-1,
+.hero-details-2,
+.hero-details-3 {
+    color: #5F5F76;
+    size: 16px;
+    font-weight: 300px;
+    line-height: 32px;
+}
+
+    
+    /*--Fluk--*/
+
