@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <title>Acme App</title>
-  </head>
+    <!--add font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   <body>
     <!-- Start Coding Here -->
     <!--Toei-->
-    
     <!-- header start here -->
     <header id="t-header">
       <div class="t-container">
@@ -81,5 +83,39 @@
 
      </div>
     <!--Fluk-->
+    <div class="f-outer-container">
+      <div class="f-footer-container">
+        <section class="f-register-section">
+          <h2 id="f-get-in-touch-icon">Get in Touch</h2>
+          <form action="#" class="f-form">
+            <div class="f-input">
+              <label for="name">Name</label> <br />
+              <input type="text" name="name" placeholder="Jhon Doe" />
+            </div>
+            <br />
+            <div class="f-input">
+              <label for="email">Email</label> <br />
+              <input type="text" name="email" placeholder="john@example.com" />
+            </div>
+            <br />
+            <div class="f-input">
+              <label for="your-message">Message</label><br />
+              <textarea name="your-message" id="f-input-message" placeholder="Your message..."></textarea>
+            </div>
+            <br />
+          </form>
+          <button class="f-submit-button">Submit</button>
+        </section>
+        <footer class="f-footer-section">
+          <h3 class="f-address">Acme productivity app ©2024</h3>
+          <div class="f-button-collection">
+            <button class="f-footer-button">FAQ</button>
+            <button class="f-footer-button">Terms</button>
+            <button class="f-footer-button">Al Policy</button>
+            <button class="f-footer-button">Pricing</button>
+          </div>
+        </footer>
+      </div>
+    </div>
   </body>
 </html>
