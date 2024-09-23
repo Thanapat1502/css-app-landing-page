@@ -5,11 +5,187 @@
   box-sizing: border-box;
   font-family: "inter", sans-serif;
 }
+  /*font-family: Arial, sans-serif;
+}
+/* ผมจำเป็นต้องกำหนดสีพื้นหลังเพราะต้องทำเงา nav bar เลยใส่ฟ้อนต์ข้างบน และ สีพื้นหลังด้านล่างครับ */
+body {
+  background-color: #f9f9ff;
+  color: #333;
+}
 /*--Toei-*/
+/* nav bar start here */
+/* ผมพยายามใช้ display flex แล้วแต่มัน float ไม่ได้ผมเลยทำแบบนี้แล้วมันก็ไม่เหมือนท้อมาก 555*/
+.t-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
 
+#t-header {
+  background-color: #fff;
+  padding: 1rem 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin-top: 20px;
+}
+/* logo start here */
+#t-header .t-head1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  display: inline-block;
+}
+.t-span {
+  color: #5E44FF;
+  position:absolute;
+  top: 25px;
+  left: 195px;
+}
+/* logo end here */
+
+/* nav menu start here */
+#t-header .t-navbar {
+  display: inline-block;
+  float: right;
+  align-items: center;
+}
+#t-header .t-menu {
+  list-style: none;
+}
+#t-header .t-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+#t-header .t-menu #t-li,
+#t-text {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+/* nav menu end here */
+
+/* content start here */
+.t-section {
+  text-align: center;
+  padding: 4rem 1rem;
+  margin-top: 4rem ;
+}
+
+.t-section #t-head2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.t-section #t-head2 .t-span1 {
+  color: #5E44FF;
+}
+
+.t-section #t-p {
+  font-size: 1rem;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+#t-rainbow {
+  background-color: #eeeafb;
+  border-radius: 20px;
+  padding: 0.3rem 0.5rem;
+  text-decoration: none;
+}
+
+.t-btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background-color:black;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+}
+/* content end here! */
 /*--Pang--*/
+.feature-Section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color:#F6F6FB;
+}
 
-/*--Fluk--*/
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+.frame-1,
+.frame-2,
+.frame-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 387px;
+    height: 272px;
+    padding: 28px;
+    gap: 40px;
+    border-radius: 24px;
+    opacity: 0px;
+
+}
+
+.frame-1 {
+   background-color: #D7E5F6;
+
+}
+
+.frame-2 {
+    background-color:#D8E0FC;
+    ;
+ 
+ }
+
+.frame-3 {
+    background: #E8DCF6;
+}
+
+.box-cover-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 16px;
+    width: 60px;
+    height: 60px;
+    background-color:#FFFFFF99;
+    ;
+}
+
+.hero-title-1,
+.hero-title-2,
+.hero-title-3 {
+    color: #1A1A2C;
+    size: 24px;
+    font-weight: 300px;
+    line-height: 32px;
+    
+}
+
+.hero-details-1,
+.hero-details-2,
+.hero-details-3 {
+    color: #5F5F76;
+    size: 16px;
+    font-weight: 300px;
+    line-height: 32px;
+}
+
+    
+    /*--Fluk--*/
+
 /*--outer-container--*/
 .f-outer-container {
   height: auto;
@@ -113,3 +289,4 @@
   font-size: 16px;
   font-weight: 600;
 }
+
